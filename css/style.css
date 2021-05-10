@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* EXPLORE */
+.name{
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.name h1{
+	font-family: 'Libre Baskerville', serif;
+	font-style: bold;
+}
+
+.name h2{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.name btn{
+	display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+
+/* NAV */
+
+/* CONTENT */
+
+.explore-content h1{
+	text-align: center;
+}
+
+/* ABOUT CONTENT */
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.about-list {
+	padding-top: 10px;
+  }
+  .about-list .media {
+	padding: 5px 0;
+  }
+  .about-list label {
+	color: #20247b;
+	font-weight: 600;
+	width: 88px;
+	margin: 0;
+	position: relative;
+  }
+  .about-list label:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 11px;
+	width: 1px;
+	height: 12px;
+	background: #20247b;
+	-moz-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+	margin: auto;
+	opacity: 0.5;
+  }
+  .about-list p {
+	margin: 0;
+	font-size: 15px;
+  }
+.about-container h3{
+	text-align: center;
+}
+
+
+/* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+  }
